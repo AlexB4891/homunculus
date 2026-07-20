@@ -1,6 +1,48 @@
+# R default
 .Rproj.user
+.Rproj
 .Rhistory
 .RData
+.Ruserdata
 .httr-oauth
 .DS_Store
 .quarto
+
+# Credentials — never commit these
+.Renviron
+.Renviron.local
+inst/credentials/
+*.key
+*.pem
+*.secret
+
+# Logs
+*.log
+
+# R package build artifacts
+*.Rcheck/
+*.tar.gz
+*.zip
+/doc/
+/Meta/
+
+# testthat snapshots (optional, depends on your workflow)
+# tests/testthat/_snaps/
+
+# torch / GPU model files — can be large
+inst/models/
+*.pt
+*.pth
+*.onnx
+
+# Windows artifacts
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+.Rproj.user
+.Rproj.user
+.Rproj.user
+.Rproj.user
+
+# Config files
+config.yml
