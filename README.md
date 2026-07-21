@@ -1,5 +1,15 @@
 # homunculus 
 
+<<<<<<< HEAD
+=======
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/YOUR_USER/homunculus/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/YOUR_USER/homunculus/actions/workflows/R-CMD-check.yaml)
+[![Codecov test coverage](https://codecov.io/gh/YOUR_USER/homunculus/branch/main/graph/badge.svg)](https://app.codecov.io/gh/YOUR_USER/homunculus?branch=main)
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<!-- badges: end -->
+
+>>>>>>> 6c0ea172a9b9fdde6d579c9b640ec6b32e7eb061
 > *A small model that learns from the process it replaces.*
 
 `homunculus` is an R package that automates the **homologation** of categorical
@@ -273,7 +283,11 @@ feat/*      ← one branch per phase or feature
 | Phase | Module | Status |
 |---|---|---|
 | 0 | Package skeleton | ✅ done |
+<<<<<<< HEAD
 | 1 | PostgreSQL connection | ✅ done  |
+=======
+| 1 | PostgreSQL connection | 🔲 |
+>>>>>>> 6c0ea172a9b9fdde6d579c9b640ec6b32e7eb061
 | 2 | Dictionary loader with time-validity | 🔲 |
 | 3 | Exact + fuzzy matching | 🔲 |
 | 4 | Text normalisation | 🔲 |
